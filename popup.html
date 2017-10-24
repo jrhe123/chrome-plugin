@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function clickHandler(){
+        window.webkitNotifications.createNotification("icon.gif", "Clicked", "It was clicked").show();
+      }
+    </script>
+  </head>
+  <body>
+    Here is popup html
+    <input type="button" value="click" onclick="clickHandler()" />
+  </body>
+</html>
